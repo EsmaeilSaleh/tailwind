@@ -6,8 +6,30 @@
     <link rel="stylesheet" href="src/output.css" />
     <title>Manage landing Page!</title>
   </head>
-  <body class="bg-gray-800">
+  <body class="bg-gray-700">
     <!-- Navbar -->
-    <nav class="relative container mx-auto p-6 bg-red-800"></nav>
+    <nav class="relative container mx-auto p-6 bg-gray-200">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="img/logo.svg" alt="" />
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <a
+          href="#"
+          class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight hidden md:block"
+        >
+          Get Started
+        </a>
+      </div>
+    </nav>
   </body>
 </html>
